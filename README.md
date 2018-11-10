@@ -7,12 +7,14 @@ Please Visit out [Wiki page](https://github.com/omkarprabhu-98/tcp-highspeed-dce
 ## Final Result
 
 - Congestion Window
-<img src="" width="400px">
-<img src="" width="400px">
+
+<img src="results/congestion_window.png" width="400px">
+
+A.plotme - ns-3, 2_format_new.txt - Linux
 
 - Queue Size
-<img src="" width="400px">
-<img src="" width="400px">
+
+<img src="results/queue_size.png" width="400px">
 
 We have identified possible resons for the deviation in the results. This can be found [here](https://github.com/omkarprabhu-98/tcp-highspeed-dce/wiki/Comparison-of-ns-3-and-Linux-kernel-implementation-of-TCP-HighSpeed)
 
@@ -33,6 +35,7 @@ With each node having a point to point connection to the router
 
 #### Adjustments made
 - FACK, SACK, DSACK, ECN have been disabled in both implementations
+- PRR is enabled
 
 ## Files
 - `dce-gfc-dumbbell-new.cc` - Merged code for running tcp high speed implementations of ns-3 and linux kernel
