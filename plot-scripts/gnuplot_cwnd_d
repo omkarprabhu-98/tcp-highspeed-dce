@@ -1,0 +1,3 @@
+set yrange [0:50]
+plot 'D.plotme' with lines, '5_format_new.txt' with lines
+
