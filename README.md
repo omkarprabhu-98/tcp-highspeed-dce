@@ -6,15 +6,34 @@ Please Visit out [Wiki page](https://github.com/omkarprabhu-98/tcp-highspeed-dce
 
 ## Final Result
 
+#### Data rate: Between Routers: 1Mbps, Between Router - Node: 10Mbps
+
 - Congestion Window
 
-<img src="results/congestion_window.png" width="400px">
+    <img src="results/congestion_window.png" width="400px">
 
 A.plotme - ns-3, 2_format_new.txt - Linux
 
 - Queue Size
 
-<img src="results/queue_size.png" width="400px">
+    <img src="results/queue_size.png" width="400px">
+
+queue-size.plotme - ns-3, newgraph.plotme - Linux
+    
+#### Data rate: Between Routers: 150Mbps, Between Router - Node: 150Mbps
+
+- Congestion Window
+
+    <img src="results/congestion_window_150.png" width="400px">
+
+A.plotme - ns-3, 2_format_new.txt - Linux
+
+- Queue Size
+
+    <img src="results/queue_size_150.png" width="400px">
+
+queue-size.plotme - ns-3, newgraph.plotme - Linux
+
 
 We have identified possible resons for the deviation in the results. This can be found [here](https://github.com/omkarprabhu-98/tcp-highspeed-dce/wiki/Comparison-of-ns-3-and-Linux-kernel-implementation-of-TCP-HighSpeed)
 
